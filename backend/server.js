@@ -8,6 +8,8 @@ const errorMiddleware = require("./middlewares/error");
 const auth = require("./routes/auth");
 const cookieParser = require("cookie-parser");
 const orderRouter = require("./routes/order");
+const cors = require("cors");
+app.use(cors());
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));

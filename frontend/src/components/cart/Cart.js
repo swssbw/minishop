@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MetaData from "../layout/MetaData";
+import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addItemToCart, removeItemFromCart } from "../../actions/cartActions";
-
-import { createOrder } from "../../actions/orderActions";
+import { addItemToCart, removeItemFromCart } from "../../modules/cartModule";
 
 const Cart = ({ history }) => {
   const dispatch = useDispatch();
@@ -27,13 +25,6 @@ const Cart = ({ history }) => {
   };
 
   const processToConfirm = () => {
-    const order = {
-      orderItems: cartItems,
-      totalPrice: cartItems
-        .reduce((acc, item) => acc + item.quantity * item.price, 0)
-        .toFixed(2),
-    };
-    dispatch(createOrder(order));
     history.push("/order/success");
   };
 

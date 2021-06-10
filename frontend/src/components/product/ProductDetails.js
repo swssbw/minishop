@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getProductDetails } from "../../actions/productActions";
 import Loader from "../layout/Loader";
 import MetaData from "../layout/MetaData";
-import { addItemToCart } from "../../actions/cartActions";
-//import "../scss/productDetail.scss";
+
+import { getProductDetails } from "../../modules/productDetailModule";
+import { addItemToCart } from "../../modules/cartModule";
 
 const ProductDetails = ({ match }) => {
   const dispatch = useDispatch();

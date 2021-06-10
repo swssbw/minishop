@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import MetaData from "../layout/MetaData";
 
-import { register } from "../../actions/userActions";
+import { register } from "../../modules/userModule";
 
 const Register = ({ history }) => {
   const [user, setUser] = useState({

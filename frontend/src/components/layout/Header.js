@@ -2,7 +2,7 @@ import React from "react";
 import Search from "./Search";
 import { Route, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../../actions/userActions";
+import { logout } from "../../modules/userModule";
 
 const Header = () => {
   const dispatch = useDispatch();

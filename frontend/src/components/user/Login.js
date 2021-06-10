@@ -4,7 +4,7 @@ import Loader from "../layout/Loader";
 import MetaData from "../layout/MetaData";
 
 import { Link } from "react-router-dom";
-import { login } from "../../actions/userActions";
+import { login } from "../../modules/userModule";
 
 const Login = ({ history }) => {
   const [email, setEmail] = useState("");

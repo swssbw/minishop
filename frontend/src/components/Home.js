@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MetaData from "./layout/MetaData";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../actions/productActions";
+import { getProducts } from "../modules/productModule";
 import Product from "./product/product";
 import Loader from "./layout/Loader";
 import Pagination from "react-js-pagination";

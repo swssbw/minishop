@@ -1,8 +1,8 @@
 ## 📍 Project OverView 📍
 
-분리수거 검색기로, 사용자가 품목을 검색하면 구분 & 배출방법을 안내해주며, 검색 결과가 없는 항목은 사용자가 직접 추가할 수 있다.
-이번 프로젝트는 MERN stack의 basic concept 을 이해하고 적용하기 위해 시작하였고, <br />
-React-router, Axios, Local storage, heroku를 통한 deploy까지 배울 수 있었다.
+미니 쇼핑몰 프로젝트로, Redux 와 Redux-thunk에 대해 공부하고 적용하기 위해 진행하였다. <br />
+E-commerce형태의 웹 서비스를 간단히 구현해보기 위하여 전체 상품을 보여주고 장바구니 기능을
+제작하였다.
 
 ### 사용 기술
 

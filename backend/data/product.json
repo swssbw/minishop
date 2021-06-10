@@ -1,0 +1,225 @@
+[
+  {
+      "name" : "Earing 1",
+      "price" : "45.89",
+      "description" : "Simple and awesome earing",
+     
+      "images" : [{
+          "public_id" : "products/dsvbpny402gelwugv2le",
+          "url" : "http://swssbw.cafe24.com/photos/acc1.jpg"
+      }],
+      "category" : "Accessories"
+  },
+{
+    "name" : "Earing 3",
+    "price" : "45.89",
+    "description" : "Simple and awesome earing",
+   
+    "images" : [{
+        "public_id" : "products/dsvbpny402gelwugv2le",
+        "url" : "http://swssbw.cafe24.com/photos/acc3.jpg"
+    }],
+    "category" : "Accessories"
+},
+{
+    "name" : "Earing 4",
+    "price" : "45.89",
+    "description" : "Simple and awesome earing",
+   
+    "images" : [{
+        "public_id" : "products/dsvbpny402gelwugv2le",
+        "url" : "http://swssbw.cafe24.com/photos/acc4.jpg"
+    }],
+    "category" : "Accessories"
+},
+{
+    "name" : "Earing 5",
+    "price" : "45.89",
+    "description" : "Simple and awesome earing",
+    "images" : [{
+        "public_id" : "products/dsvbpny402gelwugv2le",
+        "url" : "http://swssbw.cafe24.com/photos/acc5.jpg"
+    }],
+    "category" : "Accessories"
+},
+
+{
+    "name" : "Top 2",
+    "price" : "315.00",
+    "description" : "Simple and awesome top",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/top2.jpg"
+    }],
+    "category" : "Top"
+},
+{
+    "name" : "Top 3",
+    "price" : "315.00",
+    "description" : "Simple and awesome top",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/top3.jpg"
+    }],
+    "category" : "Top"
+},
+{
+    "name" : "Top 4",
+    "price" : "315.00",
+    "description" : "Simple and awesome top",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/top4.jpg"
+    }],
+    "category" : "Top"
+},
+{
+    "name" : "Top 5",
+    "price" : "315.00",
+    "description" : "Simple and awesome top",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/top5.jpg"
+    }],
+    "category" : "Top"
+},
+
+{
+    "name" : "Bottom 1",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/bottom1.jpg"
+    }],
+    "category" : "Bottom"
+},
+
+
+
+{
+    "name" : "Bottom 3",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/bottom3.jpg"
+    }],
+    "category" : "Bottom"
+},
+
+{
+    "name" : "Bottom 4",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/bottom4.jpg"
+    }],
+    "category" : "Bottom"
+},
+
+
+
+
+{
+    "name" : "Bottom 7",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/bottom7.jpg"
+    }],
+    "category" : "Bottom"
+},
+
+{
+    "name" : "Dress 1",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/dress1.jpg"
+    }],
+    "category" : "Dress"
+},
+
+{
+    "name" : "Dress 2",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/dress2.jpg"
+    }],
+    "category" : "Dress"
+},
+
+{
+    "name" : "Dress 5",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/dress5.jpg"
+    }],
+    "category" : "Dress"
+},
+
+{
+    "name" : "Dress 6",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/dress6.jpg"
+    }],
+    "category" : "Dress"
+},
+
+{
+    "name" : "Set 1",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/setup1.jpg"
+    }],
+    "category" : "SET"
+},
+
+{
+    "name" : "Set 2",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/setup2.jpg"
+    }],
+    "category" : "SET"
+},
+
+{
+    "name" : "Set 4",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/setup4.jpg"
+    }],
+    "category" : "SET"
+},
+
+{
+    "name" : "Set 5",
+    "price" : "315.00",
+    "description" : "Simple and awesome pants",
+    "images" : [{
+        "public_id" : "products/61oXGZ60GfL_fixco9",
+        "url" : "http://swssbw.cafe24.com/photos/setup5.jpg"
+    }],
+    "category" : "SET"
+}
+
+  
+]

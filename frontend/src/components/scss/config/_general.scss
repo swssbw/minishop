@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+html,
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+/* Loader */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+
+  &::after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #000000;
+    border-color: #000000 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: #979797;
+  border-color: #9e9e9e;
+}
+
+.page-link {
+  color: #000000;
+
+  &:hover {
+    color: #000000;
+  }
+}
+
+.sectionTitle {
+  margin-top: 50px;
+}
+
+.addbtn {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.removebtn {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.qtynumber {
+  width: 30px;
+  height: 25px;
+  border: none;
+}
+
+.qtyWrap {
+  border: 1px solid rgb(185, 185, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}

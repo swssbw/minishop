@@ -1,0 +1,40 @@
+.cart-empty {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.orderContainer {
+  display: flex;
+}
+
+.flexWrap {
+  flex: 2;
+}
+
+#order_summary {
+  border: 1px solid #e3e3e3;
+  border-radius: 2px;
+  padding: 2rem 1.5rem;
+  margin-left: 1rem;
+}
+
+.confirmBtn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.deleteBtn {
+  color: red;
+  font-weight: bold;
+  border: 2px solid red;
+  padding: 1px 4px;
+  font-style: normal;
+  cursor: pointer;
+}

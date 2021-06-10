@@ -1,7 +1,7 @@
 [
   {
-      "name" : "Earing 1",
-      "price" : "45.89",
+      "name" : "Long gold color earing",
+      "price" : "35.02",
       "description" : "Simple and awesome earing",
      
       "images" : [{
@@ -11,8 +11,8 @@
       "category" : "Accessories"
   },
 {
-    "name" : "Earing 3",
-    "price" : "45.89",
+    "name" : "Gold rings (1SET, 3rings)",
+    "price" : "28.89",
     "description" : "Simple and awesome earing",
    
     "images" : [{
@@ -22,8 +22,8 @@
     "category" : "Accessories"
 },
 {
-    "name" : "Earing 4",
-    "price" : "45.89",
+    "name" : "Pink glasses",
+    "price" : "52.33",
     "description" : "Simple and awesome earing",
    
     "images" : [{
@@ -33,7 +33,7 @@
     "category" : "Accessories"
 },
 {
-    "name" : "Earing 5",
+    "name" : "Simple rings",
     "price" : "45.89",
     "description" : "Simple and awesome earing",
     "images" : [{
@@ -44,8 +44,8 @@
 },
 
 {
-    "name" : "Top 2",
-    "price" : "315.00",
+    "name" : "Red tomato soup T-shirt",
+    "price" : "212.00",
     "description" : "Simple and awesome top",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -54,7 +54,7 @@
     "category" : "Top"
 },
 {
-    "name" : "Top 3",
+    "name" : "Formal jacket",
     "price" : "315.00",
     "description" : "Simple and awesome top",
     "images" : [{
@@ -64,8 +64,8 @@
     "category" : "Top"
 },
 {
-    "name" : "Top 4",
-    "price" : "315.00",
+    "name" : "Skyblue T-shirt",
+    "price" : "128.00",
     "description" : "Simple and awesome top",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -74,8 +74,8 @@
     "category" : "Top"
 },
 {
-    "name" : "Top 5",
-    "price" : "315.00",
+    "name" : "Collar T-shirt",
+    "price" : "275.00",
     "description" : "Simple and awesome top",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -85,8 +85,8 @@
 },
 
 {
-    "name" : "Bottom 1",
-    "price" : "315.00",
+    "name" : "The leopard printed skirt",
+    "price" : "420.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -98,7 +98,7 @@
 
 
 {
-    "name" : "Bottom 3",
+    "name" : "Brown leather short skirt",
     "price" : "315.00",
     "description" : "Simple and awesome pants",
     "images" : [{
@@ -109,7 +109,7 @@
 },
 
 {
-    "name" : "Bottom 4",
+    "name" : "Check pattern short skirt",
     "price" : "315.00",
     "description" : "Simple and awesome pants",
     "images" : [{
@@ -123,8 +123,8 @@
 
 
 {
-    "name" : "Bottom 7",
-    "price" : "315.00",
+    "name" : "Blue jeans",
+    "price" : "349.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -134,8 +134,8 @@
 },
 
 {
-    "name" : "Dress 1",
-    "price" : "315.00",
+    "name" : "Black dress",
+    "price" : "703.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -145,8 +145,8 @@
 },
 
 {
-    "name" : "Dress 2",
-    "price" : "315.00",
+    "name" : "White summer dress",
+    "price" : "520.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -156,8 +156,8 @@
 },
 
 {
-    "name" : "Dress 5",
-    "price" : "315.00",
+    "name" : "Grey Jump suit",
+    "price" : "419.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -167,7 +167,7 @@
 },
 
 {
-    "name" : "Dress 6",
+    "name" : "Purple dress",
     "price" : "315.00",
     "description" : "Simple and awesome pants",
     "images" : [{
@@ -178,8 +178,8 @@
 },
 
 {
-    "name" : "Set 1",
-    "price" : "315.00",
+    "name" : "Beige cardigan and blue jeans",
+    "price" : "1200.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -189,8 +189,8 @@
 },
 
 {
-    "name" : "Set 2",
-    "price" : "315.00",
+    "name" : "Jeans and red shoes",
+    "price" : "1315.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -200,8 +200,8 @@
 },
 
 {
-    "name" : "Set 4",
-    "price" : "315.00",
+    "name" : "White T-shirt and Grey jeans ",
+    "price" : "980.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",
@@ -211,8 +211,8 @@
 },
 
 {
-    "name" : "Set 5",
-    "price" : "315.00",
+    "name" : "Grey cardigan and skyblue jeans",
+    "price" : "1090.00",
     "description" : "Simple and awesome pants",
     "images" : [{
         "public_id" : "products/61oXGZ60GfL_fixco9",

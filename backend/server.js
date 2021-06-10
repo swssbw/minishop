@@ -9,10 +9,14 @@ const auth = require("./routes/auth");
 const cookieParser = require("cookie-parser");
 const orderRouter = require("./routes/order");
 const cors = require("cors");
+
 app.use(cors());
+dotenv.config();
+
+app.set("port", process.env.PORT || 4000);
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+  app.use(express.static("frontend/build"));
 
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "../client", "build", "index.html"));
@@ -38,16 +42,24 @@ connectDatabase();
 
 // Routes
 app.use("/api/v1", productsRouter);
-app.use("/api/v1/", auth);
-app.use("/api/v1/", orderRouter);
+app.use("/api/v1", auth);
+app.use("/api/v1", orderRouter);
 
 // Middleware to handle errors
 app.use(errorMiddleware);
 
 //
-const server = app.listen(process.env.PORT, () => {
+// const server = app.listen(process.env.PORT, () => {
+//   console.log(
+//     `${process.env.PORT}번 포트에서 대기중. ${process.env.NODE_ENV} 모드`
+//   );
+// });
+
+app.listen(app.get("port"), () => {
   console.log(
-    `${process.env.PORT}번 포트에서 대기중. ${process.env.NODE_ENV} 모드`
+    app.get("port"),
+    "번 포트에서 대기중",
+    `${process.env.NODE_ENV} 모드`
   );
 });
 

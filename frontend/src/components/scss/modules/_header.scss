@@ -1,15 +1,9 @@
 .navflexWrap {
+  @include dp($content: space-evenly);
   padding: 2rem 1rem;
-  display: flex;
-  justify-content: space-evenly;
-}
 
-.searchflexWrap {
-  display: flex;
-  align-items: center;
-}
-
-.navmenuWrap {
-  display: flex;
-  align-items: center;
+  .searchflexWrap,
+  .navmenuWrap {
+    @include dp();
+  }
 }

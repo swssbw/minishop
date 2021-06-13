@@ -1,16 +1,14 @@
 .categories {
-  display: flex;
-  justify-content: space-evenly;
+  @include dp(space-evenly, center);
+  @include dp($content: space-evenly);
 }
 
 .productWrapper {
-  display: flex;
+  @include dp($content: space-evenly);
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  @include dp();
+  @include mt50;
 }

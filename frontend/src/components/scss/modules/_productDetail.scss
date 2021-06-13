@@ -1,19 +1,23 @@
-.cartbtn {
-  margin: 10px 0;
-  border: $border;
-  padding: 5px 10px;
+.itemDetailContainer {
+  @include dp($content: space-evenly);
 
-  &:hover {
-    background: #bbbbbb;
+  .itemid {
+    font-size: 13px;
+    color: rgb(131, 131, 131);
   }
-}
 
-.itemid {
-  font-size: 13px;
-  color: rgb(131, 131, 131);
-}
+  .itemprice {
+    font-size: 17px;
+    margin: 5px 0;
+  }
 
-.itemprice {
-  font-size: 17px;
-  margin: 5px 0;
+  .cartbtn {
+    margin: 10px 0;
+    border: $border;
+    padding: 5px 10px;
+
+    &:hover {
+      background: #bbbbbb;
+    }
+  }
 }

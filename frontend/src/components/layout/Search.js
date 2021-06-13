@@ -20,12 +20,11 @@ const Search = ({ history }) => {
           <input
             type="text"
             id="searchbox"
-            className=""
             placeholder="Enter Product Name ..."
             onChange={(e) => setKeyword(e.target.value)}
           />
 
-          <button id="" className="btn">
+          <button className="btn">
             <i className="fa fa-search" aria-hidden="true"></i>
           </button>
         </div>

@@ -1,0 +1,9 @@
+@mixin mt50 {
+  margin-top: 50px;
+}
+
+@mixin dp($content: center, $align: center) {
+  display: flex;
+  justify-content: $content;
+  align-items: $align;
+}

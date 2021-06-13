@@ -10,7 +10,7 @@ import { loadUser } from "./modules/userModule";
 import store from "./store";
 import Profile from "./components/user/Profile";
 import Cart from "./components/cart/Cart";
-import OrderSuccess from "./components/cart/OrderSuccess";
+
 import "../src/components/scss/main.scss";
 
 function App() {
@@ -33,7 +33,6 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/me" component={Profile} />
           <Route path="/cart" component={Cart} exact />
-          <Route path="/order/success" component={OrderSuccess} exact />
         </div>
         <Footer></Footer>
       </div>

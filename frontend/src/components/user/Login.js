@@ -34,8 +34,8 @@ const Login = ({ history }) => {
           <MetaData title={"Login"} />
 
           <div className="loginContainer">
-            <form className="" onSubmit={submitHandler}>
-              <h2 className="">Login</h2>
+            <form onSubmit={submitHandler}>
+              <h2>Login</h2>
               <div className="form-group">
                 <label htmlFor="email_field">Email</label>
                 <input

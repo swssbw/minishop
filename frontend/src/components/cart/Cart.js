@@ -44,72 +44,67 @@ const Cart = ({ history }) => {
               {cartItems.map((item) => (
                 <>
                   <hr />
-                  <div className="">
-                    <div className="itemContainer">
-                      <div className="imgContainer">
-                        <img
-                          src={item.image}
-                          alt="items"
-                          height="150"
-                          width="200"
-                        />
-                      </div>
 
-                      <Link to={`/product/${item.product}`}>{item.name}</Link>
-
-                      <div className="">
-                        <p>$ {item.price}</p>
-                      </div>
-
-                      <div className="qtyWrap">
-                        <span
-                          className="removebtn"
-                          onClick={() =>
-                            decreaseQty(item.product, item.quantity)
-                          }
-                        >
-                          -
-                        </span>
-                        <input
-                          type="number"
-                          className="qtynumber"
-                          value={item.quantity}
-                          readOnly
-                        />
-
-                        <span
-                          className="addbtn"
-                          onClick={() =>
-                            increaseQty(item.product, item.quantity)
-                          }
-                        >
-                          +
-                        </span>
-                      </div>
-
-                      <i
-                        id="delete_cart_item"
-                        className="deleteBtn"
-                        onClick={() => removeCartItemHandler(item.product)}
-                      >
-                        {" "}
-                        X{" "}
-                      </i>
+                  <div className="itemContainer">
+                    <div className="imgContainer">
+                      <img
+                        src={item.image}
+                        alt="items"
+                        height="150"
+                        width="200"
+                      />
                     </div>
+
+                    <Link to={`/product/${item.product}`}>{item.name}</Link>
+
+                    <div>
+                      <p>$ {item.price}</p>
+                    </div>
+
+                    <div className="qtyWrap">
+                      <span
+                        className="removebtn"
+                        onClick={() => decreaseQty(item.product, item.quantity)}
+                      >
+                        -
+                      </span>
+                      <input
+                        type="number"
+                        className="qtynumber"
+                        value={item.quantity}
+                        readOnly
+                      />
+
+                      <span
+                        className="addbtn"
+                        onClick={() => increaseQty(item.product, item.quantity)}
+                      >
+                        +
+                      </span>
+                    </div>
+
+                    <i
+                      id="delete_cart_item"
+                      className="deleteBtn"
+                      onClick={() => removeCartItemHandler(item.product)}
+                    >
+                      {" "}
+                      X{" "}
+                    </i>
                   </div>
                 </>
               ))}
               <hr />
             </div>
 
-            <div className="">
+            <div>
               <hr />
               <div id="order_summary">
                 <h5>Order Summary</h5>
                 <hr />
                 <p>
                   {" "}
-                  <span className="">
+                  <span>
                     {cartItems.reduce(
                       (acc, item) => acc + Number(item.quantity),
                       0
@@ -119,7 +114,7 @@ const Cart = ({ history }) => {
                 </p>
                 <p>
                   Total:{" "}
-                  <span className="">
+                  <span>
                     $
                     {cartItems
                       .reduce(

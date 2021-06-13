@@ -40,8 +40,8 @@ const ProductDetails = ({ match }) => {
       ) : (
         <>
           <MetaData title={product.name} />
-          <div className="itemContainer">
-            <div className="" id="product_image">
+          <div className="itemDetailContainer">
+            <div>
               {product.images && (
                 <img
                   src={product.images[0].url}

@@ -17,11 +17,9 @@ const Header = () => {
   return (
     <>
       <nav className="navflexWrap">
-        <div className="">
-          <Link to="/" className="navbar-brand">
-            <img src="./images/logo.png" alt="logo" />
-          </Link>
-        </div>
+        <Link to="/" className="navbar-brand">
+          <img src="./images/logo.png" alt="logo" />
+        </Link>
 
         <div className="searchflexWrap">
           <Route render={({ history }) => <Search history={history} />} />
@@ -36,9 +34,7 @@ const Header = () => {
               <span id="cart" className="ml-3">
                 Cart
               </span>
-              <span className="" id="cart_count">
-                ({cartItems.length})
-              </span>
+              <span id="cart_count">({cartItems.length})</span>
             </Link>
 
             {user ? (

@@ -1,10 +1,10 @@
-.imgWrap {
-  width: 220px;
-  height: 350px;
-}
-
 .itemWrap {
   margin: 10px 14px 40px 14px;
+
+  .imgWrap {
+    width: 220px;
+    height: 350px;
+  }
 
   .itemName {
     font-size: 1.1rem;
@@ -18,9 +18,9 @@
 
   .itemDetail {
     font-size: 0.9rem;
-    border: 1px solid rgb(0, 0, 0);
+    border: $border;
     padding: 2px 4px;
-    border-radius: 5px;
+    border-radius: 6px;
     color: black;
   }
 }

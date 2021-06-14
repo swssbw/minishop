@@ -1,3 +1,4 @@
+// Class for search, filter, pagination
 class APIFeatures {
   constructor(query, queryStr) {
     this.query = query;
@@ -22,12 +23,14 @@ class APIFeatures {
     const queryCopy = { ...this.queryStr };
 
     // Removing fields from the query.
+    // product Schema에는 keyword, limit, page에 매칭되는 fields가 없기 때문
     const removeFields = ["keyword", "limit", "page"];
     removeFields.forEach((el) => delete queryCopy[el]);
 
     let queryStr = JSON.stringify(queryCopy);
 
     this.query = this.query.find(JSON.parse(queryStr));
+    console.log(this.query);
     return this;
   }
 

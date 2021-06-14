@@ -3,8 +3,8 @@ const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const APIFeatures = require("../utils/apiFeatures");
 
-// Get all products => /api/v1/products
-// /api/v1/products?keyword=
+// @description    Get all products
+// @route          GET /api/v1/products
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
   const resPerPage = 8;
   const productsCount = await Product.countDocuments();
@@ -25,7 +25,8 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Get single products => /api/v1/products/:id
+// @description    Get single products
+// @route          GET /api/v1/products/:id
 exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 

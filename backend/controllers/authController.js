@@ -3,7 +3,8 @@ const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const sendToken = require("../utils/jwtToken");
 
-// Register a User /api/v1/register
+// @description    Register a User
+// @route          POST /api/v1/admin/orders
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
   const { name, email, password } = req.body;
   const user = await User.create({
@@ -15,7 +16,8 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
   sendToken(user, 200, res);
 });
 
-// Login user /api/v1/login
+// @description    Login user
+// @route          POST /api/v1/login
 exports.loginUser = catchAsyncErrors(async (req, res, next) => {
   const { email, password } = req.body;
 
@@ -41,7 +43,8 @@ exports.loginUser = catchAsyncErrors(async (req, res, next) => {
   sendToken(user, 200, res);
 });
 
-// Get currently logged in user details  /api/v1/me
+// @description    Get currently logged in user details
+// @route          GET /api/v1/me
 exports.getUserProfile = catchAsyncErrors(async (req, res, next) => {
   const user = await User.findById(req.user.id);
   res.status(200).json({
@@ -50,7 +53,8 @@ exports.getUserProfile = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Logout user  api/v1/logout
+// @description    Logout user
+// @route          GET /api/v1/logout
 exports.logout = catchAsyncErrors(async (req, res, next) => {
   res.cookie("token", null, {
     expires: new Date(Date.now()),
@@ -63,7 +67,9 @@ exports.logout = catchAsyncErrors(async (req, res, next) => {
 });
 
 // Admin Routes
-// Get all users => /api/v1/admin/users
+
+// @description    Get all users
+// @route          GET /api/v1/admin/users
 exports.allUsers = catchAsyncErrors(async (req, res, next) => {
   const users = await User.find();
 
@@ -73,7 +79,8 @@ exports.allUsers = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Get user details => /api/v1/admin/user/:id
+// @description    Get user details
+// @route          GET /api/v1/admin/user/:id
 exports.getUserDetails = catchAsyncErrors(async (req, res, next) => {
   const user = await User.findById(req.params.id);
 

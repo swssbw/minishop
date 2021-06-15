@@ -48,13 +48,6 @@ app.use("/api/v1", orderRouter);
 // Middleware to handle errors
 app.use(errorMiddleware);
 
-//
-// const server = app.listen(process.env.PORT, () => {
-//   console.log(
-//     `${process.env.PORT}번 포트에서 대기중. ${process.env.NODE_ENV} 모드`
-//   );
-// });
-
 app.listen(app.get("port"), () => {
   console.log(
     app.get("port"),

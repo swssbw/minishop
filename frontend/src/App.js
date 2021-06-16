@@ -10,8 +10,9 @@ import { loadUser } from "./modules/userModule";
 import store from "./store";
 import Profile from "./components/user/Profile";
 import Cart from "./components/cart/Cart";
-
+import OrderSuccess from "./components/cart/OrderSuccess";
 import "../src/components/scss/main.scss";
+import OrderList from "./components/order/OrderList";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,8 @@ function App() {
           <Route path="/register" component={Register} />
           <Route path="/me" component={Profile} />
           <Route path="/cart" component={Cart} exact />
+          <Route path="/orders/success" component={OrderSuccess} />
+          <Route path="/orders/me" component={OrderList} />
         </div>
         <Footer></Footer>
       </div>

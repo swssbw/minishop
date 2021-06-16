@@ -3,6 +3,7 @@ import MetaData from "../layout/MetaData";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addItemToCart, removeItemFromCart } from "../../modules/cartModule";
+import { createOrder } from "../../modules/orderModule";
 
 const Cart = ({ history }) => {
   const dispatch = useDispatch();
@@ -25,7 +26,15 @@ const Cart = ({ history }) => {
   };
 
   const processToConfirm = () => {
-    history.push("/order/success");
+    const orderdata = {
+      orderItems: cartItems,
+      totalPrice: cartItems
+        .reduce((acc, item) => acc + item.quantity * item.price, 0)
+        .toFixed(2),
+    };
+
+    history.push("/orders/success");
+    dispatch(createOrder(orderdata));
   };
 
   return (

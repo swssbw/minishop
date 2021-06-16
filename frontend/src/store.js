@@ -6,12 +6,15 @@ import cartReducer from "./modules/cartModule";
 import authReducer from "./modules/userModule";
 import productReducers from "./modules/productModule";
 import productDetailsReducer from "./modules/productDetailModule";
+import myOrderReducer from "./modules/myOrderModule";
+import newOrderReducer from "./modules/orderModule";
 
 const reducer = combineReducers({
   products: productReducers,
   productDetails: productDetailsReducer,
   auth: authReducer,
   cart: cartReducer,
+  myOrder: myOrderReducer,
 });
 
 let initialState = {
